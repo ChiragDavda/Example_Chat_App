@@ -28,7 +28,7 @@ io.sockets.on('connection',function(socket){
 
 	//send messages
 	socket.on('send message',function(data){
-		if(data){
+		if(data != ""){
 			io.sockets.emit('new message', {msg: data, user: socket.username});
 		}
 	});
