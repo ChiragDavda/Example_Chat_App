@@ -9,7 +9,8 @@
   "author": "Chirag",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "*",
-    "express": "*"
+    "express": "*",
+    "package-lock.json": "^1.0.0",
+    "socket.io": "*"
   }
 }
